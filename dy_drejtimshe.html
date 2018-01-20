@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="styles.css">
+    <link href="css/footer.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/rezervoCSS.css">
+    <title>Drejtimet - Cacttus Air</title>
+</head>
+
+<body style="background-image: url(images/back2.jpg);">
+    <div id='cssmenu'>
+        <ul>
+            <li class='has-sub'><a href="index.html"><span>Kryefaqja</span></a></li>
+            <li class='has-sub'><a href='sherbimet.html'><span>Sherbime</span></a></li>
+            <li class='last'><a href="statusi.html"><span>Statusi</span></a></li>
+            <li class='last'><a href='nje-drejtimshe.html'><span>Rezervimet</span></a></li>
+            <li class='last'><a href='login.html'><span>Ky&ccedil;ja</span></a></li>
+            <li class='has-sub'><a href='rreth_nesh.html'><span>Rreth nesh</span></a>
+        </ul>
+    </div>
+    
+    <div>       
+        <ul class="tabs">
+            <li class="rez"><a href="#tab1">Vajtje-ardhje</a></li>
+            <li class="rez"><a href="nje-drejtimshe.html">Nje drejtimshe</a></li>
+        </ul>
+
+    </div>
+    
+    <div id="tab1">
+        <form method="get">
+            <table border="0">
+                <thead>
+                    <tr>
+                        <th colspan="2">vajtje-ardhje</th>
+                    </tr>
+                </thead>
+                <tr><td>Vendi i nisjes</td><td>Vendi i mb&euml;rritjes</td></tr>
+                <tr>
+                    <td height="30">
+                        <select name="Nga" >
+                        <option value="" disabled selected>Nga</option>
+                        <option>Prishtine</option>
+                        <option>Tirane</option>
+                        <option>Shkup</option>
+                        <option>Hong-Kong</option>
+                        <option>Oslo</option>
+                        <option>Helsinki</option>
+                        <option>Dublin</option>
+                        <option>Rome</option>
+                        <option>Malta</option>
+                        <option>New York</option>
+                        <option>Paros</option>
+                        <option>Dortmund</option>
+                        <option>Londer</option>
+                        <option>Washington</option>
+                        <option>Amsterdam</option>
+                        <option>Athine</option>
+                        <option>Copenhagen</option>
+                        <option>Londer</option>
+                        <option>Madrid</option>
+                        </select> 
+                    </td>
+                    <td>  
+                        <select name="Ne">
+                        <option value="" disabled selected>N&euml;</option>
+                        <option>Prishtine</option>
+                        <option>Tirane</option>
+                        <option>Shkup</option>
+                        <option>Hong-Kong</option>
+                        <option>Oslo</option>
+                        <option>Helsinki</option>
+                        <option>Dublin</option>
+                        <option>Rome</option>
+                        <option>Malta</option>
+                        <option>New York</option>
+                        <option>Paros</option>
+                        <option>Dortmund</option>
+                        <option>Londer</option>
+                        <option>Washington</option>
+                        <option>Amsterdam</option>
+                        <option>Athine</option>
+                        <option>Copenhagen</option>
+                        <option>Londer</option>
+                        <option>Madrid</option>
+                        </select> </td>
+                </tr>
+                            <!--fg  -------------------->
+                <tr><td>Data e nisjes</td><td>Data e kthimit</td>
+                </tr>
+                
+                <tr>
+                    <td><input type="date" name="data-e-nisjes" min="2018-12-01"></td>
+                    <td><input type="date" name="data-e-kthimit" min="2018-12-01"></td>
+                </tr>
+                
+                <tr>
+                    <td>T&euml; rritur(+18)</td><td>F&euml;mij&euml;</td>
+                </tr>
+                            
+                <tr>
+                    <td><input type="number" name="numri-i-rriturve" placeholder="0" min="1" max="10"></td>
+                    <td><input type="number" name="numri-i-femijve" placeholder="0" min="0" max="10"></td>
+                </tr>
+                            
+                <tr>
+                    <td  colspan="2">
+                    <input type="button" class="button" onclick="alert('Rezervimi juaj &euml;sht&euml; kryer me sukses!')" value="Rezervo"> </td>
+                </tr>
+
+            </table>
+        </form>
+    </div>
+</body>
+</html>
